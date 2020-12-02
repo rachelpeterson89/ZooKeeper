@@ -2,10 +2,9 @@
 public class Gorilla extends Mammal {
 	
 	//method prints message, decrease energy by 5 
-	public int throwSomething() {
+	public void throwSomething() {
 		energyLevel = energyLevel - 5;
 		System.out.println("Gorilla throws something, decreasing energy by 5");
-		return energyLevel;
 	}
 	
 	//method prints message, increase energy by 10
